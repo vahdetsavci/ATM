@@ -6,6 +6,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        PL pl = new PL();
+
+        do
+            pl.KullaniciKarsila(); 
+        while (Sistem.DevamEt());
     }
 }
